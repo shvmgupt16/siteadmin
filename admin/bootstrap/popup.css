@@ -1,0 +1,31 @@
+.popupbox {
+    background: none repeat scroll 0 0 #FFFFFF;
+    /*box-shadow: 0 0 20px #000000;*/
+    color: #000000;
+    display: none;
+    float: left;
+    height: 258px;
+    left: 50%;
+    /*overflow: scroll;*/
+    position: fixed;
+    top: 40%;
+    width: 717px;
+    z-index: 99999;
+}
+.pop-div {
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+#fade {
+    background: none repeat scroll 0 0 #000000;
+    display: none;
+    height: 100%;
+    left: 0;
+    opacity: 0.8;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+}

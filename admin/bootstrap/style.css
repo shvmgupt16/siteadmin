@@ -1,0 +1,52 @@
+#feedback {
+position: fixed;
+top:45px;
+right:-478px;
+z-index:1000;
+}
+#feedback form {
+float: left;
+border: 1px solid #999;
+padding:5px 10px 10px 10px;
+box-shadow:2px 4px 6px #ccc;
+background:#FFF;
+}
+#feedback form .search{padding:4px;float:left}
+#feedback form label {
+color: #555555;
+font-size: 12px;
+}
+#feedback .news {
+font-size:18px;
+float: right;
+position: absolute;
+top:13px;
+right:481px;
+}
+#feedback .no_flyout {
+float: right;
+margin-right: 0;
+}
+#feedback a:hover {
+background-position: center right;
+}
+#feedback form .btn {
+text-align: center;
+}
+#feedback form input[type="text"] {
+height: 20px;
+line-height:20px;
+}
+#feedback h2 {
+text-align:center;
+color: #662E85;
+padding:3px;
+border:1px solid #ccc;
+background:#ebeaea;
+margin-bottom:5px;
+}
+#feedback form input.text {
+height: 18px;
+margin-bottom: 3px;
+width: 100%;
+}
